@@ -1,6 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.Threading;
 using DevDogs.SystemInfo.Hwinfo;
+using DevDogs.SystemInfo.Matching;
+using DevDogs.SystemInfo.Publishing;
 using SimHub.Plugins;
 
 namespace DevDogs.SystemInfo;
@@ -16,17 +19,23 @@ public sealed class DDSystemInfoPlugin : IPlugin
     /// <summary>HWiNFO polls every 2 s by default; 250 ms keeps up with faster polling without touching shared memory at 60 Hz.</summary>
     private static readonly TimeSpan ReadInterval = TimeSpan.FromMilliseconds(250);
 
-    private HwinfoConnection? _connection;
+    private static readonly IReadOnlyDictionary<string, ReadingSelector> NoOverrides = new Dictionary<string, ReadingSelector>();
+
+    private SystemInfoMonitor? _monitor;
     private Timer? _timer;
-    private volatile bool _connected;
+    private bool _hardwareProbed;
     private int _polling;
 
     public PluginManager PluginManager { get; set; } = null!;
 
     public void Init(PluginManager pluginManager)
     {
-        _connection = new HwinfoConnection(new MemoryMappedHwinfoOpener());
-        this.AttachDelegate("Status.Connected", () => _connected);
+        var monitor = new SystemInfoMonitor(new MemoryMappedHwinfoOpener(), () => NoOverrides);
+        monitor.ConnectionChanged += OnConnectionChanged;
+        _monitor = monitor;
+
+        foreach (var key in PublishedProperties.Keys)
+            this.AttachDelegate(key, () => monitor.Values[key]);
 
         // Reads run off SimHub's data loop so a slow or missing HWiNFO never stalls it.
         _timer = new Timer(_ => Poll(), null, TimeSpan.Zero, ReadInterval);
@@ -38,8 +47,8 @@ public sealed class DDSystemInfoPlugin : IPlugin
         if (_timer?.Dispose(stopped) == true)
             stopped.WaitOne(TimeSpan.FromSeconds(2));
         _timer = null;
-        _connection?.Dispose();
-        _connection = null;
+        _monitor?.Dispose();
+        _monitor = null;
     }
 
     private void Poll()
@@ -48,19 +57,17 @@ public sealed class DDSystemInfoPlugin : IPlugin
         if (Interlocked.Exchange(ref _polling, 1) == 1) return;
         try
         {
-            var connection = _connection;
-            if (connection is null) return;
+            var monitor = _monitor;
+            if (monitor is null) return;
 
-            var connected = connection.Poll();
-            if (connected != _connected)
+            if (!_hardwareProbed)
             {
-                _connected = connected;
-                var header = connection.Header;
-                SimHub.Logging.Current.Info(header is { } h
-                    ? $"DevDogs System Info: HWiNFO shared memory v{h.Version}.{h.Revision} connected " +
-                      $"({h.SensorCount} sensors, {h.ReadingCount} readings, polling {h.PollingPeriodMs?.ToString() ?? "?"} ms)"
-                    : "DevDogs System Info: HWiNFO shared memory not available, retrying");
+                // WMI takes a moment; doing it here keeps SimHub's startup fast.
+                _hardwareProbed = true;
+                monitor.Hardware = StaticHardwareProbe.Probe();
             }
+
+            monitor.Tick();
         }
         catch (Exception ex)
         {
@@ -70,5 +77,25 @@ public sealed class DDSystemInfoPlugin : IPlugin
         {
             Volatile.Write(ref _polling, 0);
         }
+    }
+
+    private void OnConnectionChanged(bool connected)
+    {
+        var monitor = _monitor;
+        if (!connected || monitor?.Header is not { } h || monitor.Resolution is not { } resolution)
+        {
+            SimHub.Logging.Current.Info("DevDogs System Info: HWiNFO shared memory not available, retrying");
+            return;
+        }
+
+        var unresolved = new List<string>();
+        foreach (var property in resolution.Properties.Values)
+            if (!property.IsResolved) unresolved.Add(property.Rule.Key);
+
+        SimHub.Logging.Current.Info(
+            $"DevDogs System Info: HWiNFO shared memory v{h.Version}.{h.Revision} connected " +
+            $"({h.SensorCount} sensors, {h.ReadingCount} readings, polling {h.PollingPeriodMs?.ToString() ?? "?"} ms); " +
+            $"CPU '{resolution.CpuModel}', GPU '{resolution.GpuModel}', " +
+            (unresolved.Count == 0 ? "all properties bound" : $"not found: {string.Join(", ", unresolved)}"));
     }
 }
