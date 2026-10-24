@@ -36,11 +36,23 @@ dotnet build src/DevDogs.SystemInfo -c Release -p:DeployToSimHub=true
 
 On the next start SimHub asks whether to enable the new plugin.
 
+## Sensor dumps (help with other hardware)
+
+Matching rules are tested against recorded HWiNFO dumps. With HWiNFO running:
+
+```powershell
+dotnet run --project tools/HwinfoDump -c Release -- --resolve      # what each property binds to on this PC
+dotnet run --project tools/HwinfoDump -c Release -- my-pc.json     # write a fixture
+```
+
+The fixture drops drive serial numbers and HWiNFO renames. Fixtures live in `tests/DevDogs.SystemInfo.Core.Tests/Fixtures/`.
+
 ## Layout
 
 | Path | Target | Contents |
 |---|---|---|
 | `src/DevDogs.SystemInfo.Core` | netstandard2.0 | Shared-memory reading, sensor matching; no SimHub dependency |
 | `src/DevDogs.SystemInfo` | net48 | SimHub plugin `DDSystemInfoPlugin` |
-| `tests/DevDogs.SystemInfo.Core.Tests` | net10.0 | xUnit tests for Core |
+| `tests/DevDogs.SystemInfo.Core.Tests` | net10.0 | xUnit tests for Core, replaying recorded dumps |
+| `tools/HwinfoDump` | net10.0 | Writes a redacted fixture from the live HWiNFO; `--resolve` prints the bindings |
 | `docs/adr` | | Design decisions |
