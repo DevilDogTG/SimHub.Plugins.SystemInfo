@@ -41,6 +41,16 @@ public class StaticHardwareTests
         Assert.Equal(65_536, OwnerPc.RamInstalledMb);
         Assert.Equal("DDR4", OwnerPc.RamType);
         Assert.Equal("64 GB DDR4-3200", OwnerPc.RamDescription);
+        Assert.Equal(3200, OwnerPc.RamRatedSpeedMts);
+        Assert.Equal("DDR4-3200", OwnerPc.RamSpec);
+    }
+
+    [Fact]
+    public void Rated_speed_is_the_slowest_module()
+    {
+        var hardware = new StaticHardware([], [new MemoryModule(8 * GiB, 26, 3600), new MemoryModule(8 * GiB, 26, 3200)]);
+
+        Assert.Equal("DDR4-3200", hardware.RamSpec);
     }
 
     [Fact]
@@ -57,6 +67,7 @@ public class StaticHardwareTests
         var hardware = new StaticHardware([], [new MemoryModule(8 * GiB, 0, 2400)]);
 
         Assert.Null(hardware.RamType);
+        Assert.Null(hardware.RamSpec);
         Assert.Equal("8 GB", hardware.RamDescription);
     }
 
