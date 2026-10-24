@@ -68,6 +68,8 @@ public class SystemInfoMonitorTests
         Assert.Equal(16_304, (double)v[P.VramTotal]!, precision: 0);
         Assert.Equal(Reading("GPU D3D Memory Dedicated") / 16_304.0 * 100, (double)v[P.VramLoad]!, precision: 2);
         Assert.Equal("DDR4", v[P.RamType]);
+        Assert.Equal(3200, v[P.RamRatedSpeed]);
+        Assert.Equal("DDR4-3200", v[P.RamSpec]);
         Assert.Equal("64 GB DDR4-3200", v[P.RamDescription]);
         Assert.DoesNotContain("RAM.Clock", v.Keys);
     }

@@ -50,13 +50,26 @@ public sealed record StaticHardware(IReadOnlyList<DisplayAdapter> Adapters, IRea
         get
         {
             if (RamInstalledMb is not { } mb) return null;
-            var speed = Modules.Select(m => m.ConfiguredSpeedMts).Where(s => s > 0).DefaultIfEmpty(0).Min();
-            var type = RamType;
-            var kind = type is null ? null : speed > 0 ? $"{type}-{speed}" : type;
             var size = $"{Math.Round(mb / 1024):0} GB";
-            return kind is null ? size : $"{size} {kind}";
+            return RamSpec is { } spec ? $"{size} {spec}" : size;
         }
     }
+
+    /// <summary>
+    /// Speed the modules run at as configured in firmware, in MT/s (the slowest module wins). It is the round rated
+    /// figure; HWiNFO's live memory clock x 2 reads a little lower (3192 for DDR4-3200).
+    /// </summary>
+    public int? RamRatedSpeedMts
+    {
+        get
+        {
+            var speeds = Modules.Select(m => m.ConfiguredSpeedMts).Where(s => s > 0).ToList();
+            return speeds.Count == 0 ? null : speeds.Min();
+        }
+    }
+
+    /// <summary>e.g. <c>DDR4-3200</c>; just the type when the speed is unknown.</summary>
+    public string? RamSpec => RamType is not { } type ? null : RamRatedSpeedMts is { } speed ? $"{type}-{speed}" : type;
 
     /// <summary>SMBIOS 3.x memory device type codes (table 76).</summary>
     public static string? MemoryTypeName(int smbiosType) => smbiosType switch
