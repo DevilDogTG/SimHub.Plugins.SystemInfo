@@ -1,0 +1,5082 @@
+{
+  "header": {
+    "signature": 1399412552,
+    "version": 2,
+    "revision": 1,
+    "pollTime": 1792832945,
+    "sensorSectionOffset": 48,
+    "sensorElementSize": 392,
+    "sensorCount": 23,
+    "readingSectionOffset": 9064,
+    "readingElementSize": 460,
+    "readingCount": 490,
+    "pollingPeriodMs": 2000,
+    "isActive": true,
+    "totalSize": 234464
+  },
+  "sensors": [
+    {
+      "index": 0,
+      "id": 4026532609,
+      "instance": 0,
+      "name": "System: MSI MS-7D99",
+      "userName": ""
+    },
+    {
+      "index": 1,
+      "id": 4026532608,
+      "instance": 0,
+      "name": "CPU [#0]: Intel Core i5-14600K",
+      "userName": ""
+    },
+    {
+      "index": 2,
+      "id": 4026532864,
+      "instance": 0,
+      "name": "CPU [#0]: Intel Core i5-14600K: DTS",
+      "userName": ""
+    },
+    {
+      "index": 3,
+      "id": 4026542592,
+      "instance": 0,
+      "name": "CPU [#0]: Intel Core i5-14600K: Enhanced",
+      "userName": ""
+    },
+    {
+      "index": 4,
+      "id": 4026532610,
+      "instance": 0,
+      "name": "CPU [#0]: Intel Core i5-14600K: C-State Residency",
+      "userName": ""
+    },
+    {
+      "index": 5,
+      "id": 4026532609,
+      "instance": 1,
+      "name": "Memory Timings",
+      "userName": ""
+    },
+    {
+      "index": 6,
+      "id": 4026534144,
+      "instance": 0,
+      "name": "CPU [#0]: Intel Core i5-14600K: Performance Limit Reasons",
+      "userName": ""
+    },
+    {
+      "index": 7,
+      "id": 4143998599,
+      "instance": 0,
+      "name": "MSI PRO B760M-A WIFI DDR4 (MS-7D99) (Nuvoton NCT6687D)",
+      "userName": ""
+    },
+    {
+      "index": 8,
+      "id": 4060151812,
+      "instance": 0,
+      "name": "MSI PRO B760M-A WIFI DDR4 (MS-7D99) (Intel PCH)",
+      "userName": ""
+    },
+    {
+      "index": 9,
+      "id": 4026532096,
+      "instance": 0,
+      "name": "S.M.A.R.T.: EDILOCA EN705 1TB (SERIAL) [C:]",
+      "userName": ""
+    },
+    {
+      "index": 10,
+      "id": 4026532096,
+      "instance": 1,
+      "name": "S.M.A.R.T.: BBR2TBNV3A (SERIAL) [D:]",
+      "userName": ""
+    },
+    {
+      "index": 11,
+      "id": 4026532096,
+      "instance": 2,
+      "name": "S.M.A.R.T.: EDILOCA EN600Pro 2TB (SERIAL) [D:]",
+      "userName": ""
+    },
+    {
+      "index": 12,
+      "id": 4026532097,
+      "instance": 0,
+      "name": "Drive: EDILOCA EN705 1TB (SERIAL) [C:]",
+      "userName": ""
+    },
+    {
+      "index": 13,
+      "id": 4026532097,
+      "instance": 1,
+      "name": "Drive: BBR2TBNV3A (SERIAL) [D:]",
+      "userName": ""
+    },
+    {
+      "index": 14,
+      "id": 4026532097,
+      "instance": 2,
+      "name": "Drive: EDILOCA EN600Pro 2TB (SERIAL) [D:]",
+      "userName": ""
+    },
+    {
+      "index": 15,
+      "id": 4026532097,
+      "instance": 3,
+      "name": "Drive: Msft Virtual Disk",
+      "userName": ""
+    },
+    {
+      "index": 16,
+      "id": 3758102528,
+      "instance": 32,
+      "name": "dGPU [#1]: AMD Radeon RX 9070 XT: Sapphire Radeon RX 9070 XT PULSE",
+      "userName": ""
+    },
+    {
+      "index": 17,
+      "id": 3758108672,
+      "instance": 0,
+      "name": "iGPU [#0]: Intel UHD Graphics",
+      "userName": ""
+    },
+    {
+      "index": 18,
+      "id": 4027535360,
+      "instance": 0,
+      "name": "RTSS",
+      "userName": ""
+    },
+    {
+      "index": 19,
+      "id": 4026535920,
+      "instance": 0,
+      "name": "PresentMon",
+      "userName": ""
+    },
+    {
+      "index": 20,
+      "id": 4026591744,
+      "instance": 0,
+      "name": "Network: Intel Wi-Fi 6E AX211 160MHz",
+      "userName": ""
+    },
+    {
+      "index": 21,
+      "id": 4026591744,
+      "instance": 8,
+      "name": "Network: RealTek Semiconductor RTL8125 Gaming 2.5GbE Family Ethernet Controller",
+      "userName": ""
+    },
+    {
+      "index": 22,
+      "id": 4026535584,
+      "instance": 0,
+      "name": "Windows Hardware Errors (WHEA)",
+      "userName": ""
+    }
+  ],
+  "readings": [
+    {
+      "index": 0,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217728,
+      "label": "Virtual Memory Committed",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 22256
+    },
+    {
+      "index": 1,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217729,
+      "label": "Virtual Memory Available",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 46986
+    },
+    {
+      "index": 2,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217730,
+      "label": "Virtual Memory Load",
+      "userLabel": "",
+      "unit": "%",
+      "value": 32.1
+    },
+    {
+      "index": 3,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217731,
+      "label": "Physical Memory Used",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 17238
+    },
+    {
+      "index": 4,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217732,
+      "label": "Physical Memory Available",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 47908
+    },
+    {
+      "index": 5,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217733,
+      "label": "Physical Memory Load",
+      "userLabel": "",
+      "unit": "%",
+      "value": 26.4
+    },
+    {
+      "index": 6,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217734,
+      "label": "Page File Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 7,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217735,
+      "label": "Page File Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 4096
+    },
+    {
+      "index": 8,
+      "type": "Other",
+      "sensorIndex": 0,
+      "id": 134217736,
+      "label": "Page File Used",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 0
+    },
+    {
+      "index": 9,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554432,
+      "label": "P-core 0 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1881103515625
+    },
+    {
+      "index": 10,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554433,
+      "label": "P-core 1 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.197265625
+    },
+    {
+      "index": 11,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554434,
+      "label": "P-core 2 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1962890625
+    },
+    {
+      "index": 12,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554435,
+      "label": "P-core 3 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.19140625
+    },
+    {
+      "index": 13,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554436,
+      "label": "P-core 4 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1864013671875
+    },
+    {
+      "index": 14,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554437,
+      "label": "P-core 5 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1932373046875
+    },
+    {
+      "index": 15,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554438,
+      "label": "E-core 6 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.188232421875
+    },
+    {
+      "index": 16,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554439,
+      "label": "E-core 7 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1932373046875
+    },
+    {
+      "index": 17,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554440,
+      "label": "E-core 8 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1932373046875
+    },
+    {
+      "index": 18,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554441,
+      "label": "E-core 9 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1932373046875
+    },
+    {
+      "index": 19,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554442,
+      "label": "E-core 10 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1932373046875
+    },
+    {
+      "index": 20,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554443,
+      "label": "E-core 11 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1932373046875
+    },
+    {
+      "index": 21,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554444,
+      "label": "E-core 12 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1932373046875
+    },
+    {
+      "index": 22,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554445,
+      "label": "E-core 13 VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1932373046875
+    },
+    {
+      "index": 23,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554446,
+      "label": "Uncore VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1661376953125
+    },
+    {
+      "index": 24,
+      "type": "Voltage",
+      "sensorIndex": 1,
+      "id": 33554447,
+      "label": "SA VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.151123046875
+    },
+    {
+      "index": 25,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663296,
+      "label": "P-core 0 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 5287.068
+    },
+    {
+      "index": 26,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663297,
+      "label": "P-core 1 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 5287.068
+    },
+    {
+      "index": 27,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663298,
+      "label": "P-core 2 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 5287.068
+    },
+    {
+      "index": 28,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663299,
+      "label": "P-core 3 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 5287.068
+    },
+    {
+      "index": 29,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663300,
+      "label": "P-core 4 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 5287.068
+    },
+    {
+      "index": 30,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663301,
+      "label": "P-core 5 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 5287.068
+    },
+    {
+      "index": 31,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663302,
+      "label": "E-core 6 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3990.24
+    },
+    {
+      "index": 32,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663303,
+      "label": "E-core 7 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3990.24
+    },
+    {
+      "index": 33,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663304,
+      "label": "E-core 8 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3990.24
+    },
+    {
+      "index": 34,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663305,
+      "label": "E-core 9 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3990.24
+    },
+    {
+      "index": 35,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663306,
+      "label": "E-core 10 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3990.24
+    },
+    {
+      "index": 36,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663307,
+      "label": "E-core 11 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3990.24
+    },
+    {
+      "index": 37,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663308,
+      "label": "E-core 12 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3990.24
+    },
+    {
+      "index": 38,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663309,
+      "label": "E-core 13 Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3990.24
+    },
+    {
+      "index": 39,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663310,
+      "label": "Bus Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 99.756
+    },
+    {
+      "index": 40,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663311,
+      "label": "Ring/LLC Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 4489.02
+    },
+    {
+      "index": 41,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663320,
+      "label": "P-core 0 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 2700.3586539921735
+    },
+    {
+      "index": 42,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663321,
+      "label": "P-core 0 T1 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 166.0517800052714
+    },
+    {
+      "index": 43,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663322,
+      "label": "P-core 1 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3326.269573574794
+    },
+    {
+      "index": 44,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663323,
+      "label": "P-core 1 T1 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 129.19068840184292
+    },
+    {
+      "index": 45,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663324,
+      "label": "P-core 2 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 2742.883928293517
+    },
+    {
+      "index": 46,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663325,
+      "label": "P-core 2 T1 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 749.0814914401983
+    },
+    {
+      "index": 47,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663326,
+      "label": "P-core 3 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 2778.3810492221023
+    },
+    {
+      "index": 48,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663327,
+      "label": "P-core 3 T1 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 270.458515415373
+    },
+    {
+      "index": 49,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663328,
+      "label": "P-core 4 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 2770.8375226660723
+    },
+    {
+      "index": 50,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663329,
+      "label": "P-core 4 T1 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 233.6777878908213
+    },
+    {
+      "index": 51,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663330,
+      "label": "P-core 5 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3092.7871899120146
+    },
+    {
+      "index": 52,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663331,
+      "label": "P-core 5 T1 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 243.97323027518988
+    },
+    {
+      "index": 53,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663332,
+      "label": "E-core 6 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 1024.452405667696
+    },
+    {
+      "index": 54,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663334,
+      "label": "E-core 7 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 553.4605359700744
+    },
+    {
+      "index": 55,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663336,
+      "label": "E-core 8 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 384.2903658814909
+    },
+    {
+      "index": 56,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663338,
+      "label": "E-core 9 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 297.59160529417505
+    },
+    {
+      "index": 57,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663340,
+      "label": "E-core 10 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 1183.5432194784064
+    },
+    {
+      "index": 58,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663342,
+      "label": "E-core 11 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 970.883112294257
+    },
+    {
+      "index": 59,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663344,
+      "label": "E-core 12 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 1097.022136540782
+    },
+    {
+      "index": 60,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663346,
+      "label": "E-core 13 T0 Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 753.9448119786742
+    },
+    {
+      "index": 61,
+      "type": "Clock",
+      "sensorIndex": 1,
+      "id": 100663348,
+      "label": "Average Effective Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 1341.4841452439252
+    },
+    {
+      "index": 62,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440512,
+      "label": "P-core 0 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 52.31149
+    },
+    {
+      "index": 63,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440513,
+      "label": "P-core 0 T1 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 3.772955
+    },
+    {
+      "index": 64,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440514,
+      "label": "P-core 1 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 64.73484
+    },
+    {
+      "index": 65,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440515,
+      "label": "P-core 1 T1 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 2.283837480314961
+    },
+    {
+      "index": 66,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440516,
+      "label": "P-core 2 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 52.8895
+    },
+    {
+      "index": 67,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440517,
+      "label": "P-core 2 T1 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 13.456685714285713
+    },
+    {
+      "index": 68,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440518,
+      "label": "P-core 3 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 53.536705
+    },
+    {
+      "index": 69,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440519,
+      "label": "P-core 3 T1 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 4.236718730158731
+    },
+    {
+      "index": 70,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440520,
+      "label": "P-core 4 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 53.607675
+    },
+    {
+      "index": 71,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440521,
+      "label": "P-core 4 T1 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 3.5109384126984127
+    },
+    {
+      "index": 72,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440522,
+      "label": "P-core 5 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 59.40476
+    },
+    {
+      "index": 73,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440523,
+      "label": "P-core 5 T1 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 4.513335433070866
+    },
+    {
+      "index": 74,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440524,
+      "label": "E-core 6 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 26.58288
+    },
+    {
+      "index": 75,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440526,
+      "label": "E-core 7 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 13.898905196850393
+    },
+    {
+      "index": 76,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440528,
+      "label": "E-core 8 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 9.54544377952756
+    },
+    {
+      "index": 77,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440530,
+      "label": "E-core 9 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 2.765947768595041
+    },
+    {
+      "index": 78,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440532,
+      "label": "E-core 10 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 30.490655
+    },
+    {
+      "index": 79,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440534,
+      "label": "E-core 11 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 25.192745
+    },
+    {
+      "index": 80,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440536,
+      "label": "E-core 12 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 27.69911937007874
+    },
+    {
+      "index": 81,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440538,
+      "label": "E-core 13 T0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 19.037500472440946
+    },
+    {
+      "index": 82,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440540,
+      "label": "Max CPU/Thread Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 64.73484
+    },
+    {
+      "index": 83,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440541,
+      "label": "Total CPU Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 26.173631867901072
+    },
+    {
+      "index": 84,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440542,
+      "label": "On-Demand Clock Modulation",
+      "userLabel": "",
+      "unit": "%",
+      "value": 100
+    },
+    {
+      "index": 85,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440543,
+      "label": "P-core 0 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 79.45727660916886
+    },
+    {
+      "index": 86,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440544,
+      "label": "P-core 0 T1 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 5.054414175450004
+    },
+    {
+      "index": 87,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440545,
+      "label": "P-core 1 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 98.13287633419952
+    },
+    {
+      "index": 88,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440546,
+      "label": "P-core 1 T1 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 3.9216464214492537
+    },
+    {
+      "index": 89,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440547,
+      "label": "P-core 2 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 80.20225479560533
+    },
+    {
+      "index": 90,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440548,
+      "label": "P-core 2 T1 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 21.910208072622215
+    },
+    {
+      "index": 91,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440549,
+      "label": "P-core 3 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 81.33999975856976
+    },
+    {
+      "index": 92,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440550,
+      "label": "P-core 3 T1 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 8.088354612725787
+    },
+    {
+      "index": 93,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440551,
+      "label": "P-core 4 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 81.3931293839671
+    },
+    {
+      "index": 94,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440552,
+      "label": "P-core 4 T1 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 6.951917637013448
+    },
+    {
+      "index": 95,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440553,
+      "label": "P-core 5 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 89.91521620864705
+    },
+    {
+      "index": 96,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440554,
+      "label": "P-core 5 T1 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 7.298846846875848
+    },
+    {
+      "index": 97,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440555,
+      "label": "E-core 6 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 31.31527298157965
+    },
+    {
+      "index": 98,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440557,
+      "label": "E-core 7 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 17.092558866821236
+    },
+    {
+      "index": 99,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440559,
+      "label": "E-core 8 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 11.758287709652317
+    },
+    {
+      "index": 100,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440561,
+      "label": "E-core 9 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 9.111001841312353
+    },
+    {
+      "index": 101,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440563,
+      "label": "E-core 10 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 36.31729210761394
+    },
+    {
+      "index": 102,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440565,
+      "label": "E-core 11 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 29.975928310450836
+    },
+    {
+      "index": 103,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440567,
+      "label": "E-core 12 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 33.42425781259431
+    },
+    {
+      "index": 104,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440569,
+      "label": "E-core 13 T0 Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 23.33934480849338
+    },
+    {
+      "index": 105,
+      "type": "Usage",
+      "sensorIndex": 1,
+      "id": 117440571,
+      "label": "Total CPU Utility",
+      "userLabel": "",
+      "unit": "%",
+      "value": 37.80435608346813
+    },
+    {
+      "index": 106,
+      "type": "Other",
+      "sensorIndex": 1,
+      "id": 134217728,
+      "label": "P-core 0 Ratio",
+      "userLabel": "",
+      "unit": "x",
+      "value": 53
+    },
+    {
+      "index": 107,
+      "type": "Other",
+      "sensorIndex": 1,
+      "id": 134217742,
+      "label": "Uncore Ratio",
+      "userLabel": "",
+      "unit": "x",
+      "value": 45
+    },
+    {
+      "index": 108,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777216,
+      "label": "P-core 0",
+      "userLabel": "",
+      "unit": "C",
+      "value": 44
+    },
+    {
+      "index": 109,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777217,
+      "label": "P-core 1",
+      "userLabel": "",
+      "unit": "C",
+      "value": 45
+    },
+    {
+      "index": 110,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777218,
+      "label": "P-core 2",
+      "userLabel": "",
+      "unit": "C",
+      "value": 51
+    },
+    {
+      "index": 111,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777219,
+      "label": "P-core 3",
+      "userLabel": "",
+      "unit": "C",
+      "value": 43
+    },
+    {
+      "index": 112,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777220,
+      "label": "P-core 4",
+      "userLabel": "",
+      "unit": "C",
+      "value": 44
+    },
+    {
+      "index": 113,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777221,
+      "label": "P-core 5",
+      "userLabel": "",
+      "unit": "C",
+      "value": 43
+    },
+    {
+      "index": 114,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777222,
+      "label": "E-core 6",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 115,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777223,
+      "label": "E-core 7",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 116,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777224,
+      "label": "E-core 8",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 117,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777225,
+      "label": "E-core 9",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 118,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777226,
+      "label": "E-core 10",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 119,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777227,
+      "label": "E-core 11",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 120,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777228,
+      "label": "E-core 12",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 121,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777229,
+      "label": "E-core 13",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 122,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777230,
+      "label": "P-core 0 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 56
+    },
+    {
+      "index": 123,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777231,
+      "label": "P-core 1 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 55
+    },
+    {
+      "index": 124,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777232,
+      "label": "P-core 2 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 49
+    },
+    {
+      "index": 125,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777233,
+      "label": "P-core 3 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 57
+    },
+    {
+      "index": 126,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777234,
+      "label": "P-core 4 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 56
+    },
+    {
+      "index": 127,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777235,
+      "label": "P-core 5 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 57
+    },
+    {
+      "index": 128,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777236,
+      "label": "E-core 6 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 63
+    },
+    {
+      "index": 129,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777237,
+      "label": "E-core 7 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 63
+    },
+    {
+      "index": 130,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777238,
+      "label": "E-core 8 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 63
+    },
+    {
+      "index": 131,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777239,
+      "label": "E-core 9 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 63
+    },
+    {
+      "index": 132,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777240,
+      "label": "E-core 10 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 63
+    },
+    {
+      "index": 133,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777241,
+      "label": "E-core 11 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 63
+    },
+    {
+      "index": 134,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777242,
+      "label": "E-core 12 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 63
+    },
+    {
+      "index": 135,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777243,
+      "label": "E-core 13 Distance to TjMAX",
+      "userLabel": "",
+      "unit": "C",
+      "value": 63
+    },
+    {
+      "index": 136,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777726,
+      "label": "CPU Package",
+      "userLabel": "",
+      "unit": "C",
+      "value": 48
+    },
+    {
+      "index": 137,
+      "type": "Temperature",
+      "sensorIndex": 2,
+      "id": 16777727,
+      "label": "Core Max",
+      "userLabel": "",
+      "unit": "C",
+      "value": 51
+    },
+    {
+      "index": 138,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217728,
+      "label": "P-core 0 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 139,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217729,
+      "label": "P-core 1 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 140,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217730,
+      "label": "P-core 2 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 141,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217731,
+      "label": "P-core 3 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 142,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217732,
+      "label": "P-core 4 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 143,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217733,
+      "label": "P-core 5 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 144,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217734,
+      "label": "E-core 6 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 145,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217735,
+      "label": "E-core 7 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 146,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217736,
+      "label": "E-core 8 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 147,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217737,
+      "label": "E-core 9 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 148,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217738,
+      "label": "E-core 10 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 149,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217739,
+      "label": "E-core 11 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 150,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217740,
+      "label": "E-core 12 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 151,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217741,
+      "label": "E-core 13 Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 152,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217742,
+      "label": "P-core 0 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 153,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217743,
+      "label": "P-core 1 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 154,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217744,
+      "label": "P-core 2 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 155,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217745,
+      "label": "P-core 3 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 156,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217746,
+      "label": "P-core 4 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 157,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217747,
+      "label": "P-core 5 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 158,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217748,
+      "label": "E-core 6 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 159,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217749,
+      "label": "E-core 7 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 160,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217750,
+      "label": "E-core 8 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 161,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217751,
+      "label": "E-core 9 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 162,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217752,
+      "label": "E-core 10 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 163,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217753,
+      "label": "E-core 11 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 164,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217754,
+      "label": "E-core 12 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 165,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217755,
+      "label": "E-core 13 Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 166,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217756,
+      "label": "P-core 0 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 167,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217757,
+      "label": "P-core 1 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 168,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217758,
+      "label": "P-core 2 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 169,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217759,
+      "label": "P-core 3 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 170,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217760,
+      "label": "P-core 4 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 171,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217761,
+      "label": "P-core 5 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 172,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217762,
+      "label": "E-core 6 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 173,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217763,
+      "label": "E-core 7 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 174,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217764,
+      "label": "E-core 8 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 175,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217765,
+      "label": "E-core 9 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 176,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217766,
+      "label": "E-core 10 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 177,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217767,
+      "label": "E-core 11 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 178,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217768,
+      "label": "E-core 12 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 179,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217769,
+      "label": "E-core 13 Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 180,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217770,
+      "label": "Package/Ring Thermal Throttling",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 181,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217771,
+      "label": "Package/Ring Critical Temperature",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 182,
+      "type": "Other",
+      "sensorIndex": 2,
+      "id": 134217772,
+      "label": "Package/Ring Power Limit Exceeded",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 183,
+      "type": "Temperature",
+      "sensorIndex": 3,
+      "id": 16777220,
+      "label": "CPU Package",
+      "userLabel": "",
+      "unit": "C",
+      "value": 49
+    },
+    {
+      "index": 184,
+      "type": "Temperature",
+      "sensorIndex": 3,
+      "id": 16777221,
+      "label": "CPU IA Cores",
+      "userLabel": "",
+      "unit": "C",
+      "value": 49
+    },
+    {
+      "index": 185,
+      "type": "Temperature",
+      "sensorIndex": 3,
+      "id": 16777222,
+      "label": "CPU GT Cores (Graphics)",
+      "userLabel": "",
+      "unit": "C",
+      "value": 34
+    },
+    {
+      "index": 186,
+      "type": "Voltage",
+      "sensorIndex": 3,
+      "id": 33554433,
+      "label": "IA Voltage Offset",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0
+    },
+    {
+      "index": 187,
+      "type": "Voltage",
+      "sensorIndex": 3,
+      "id": 33554434,
+      "label": "GT Voltage Offset",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0
+    },
+    {
+      "index": 188,
+      "type": "Voltage",
+      "sensorIndex": 3,
+      "id": 33554435,
+      "label": "CLR (CBo/LLC/Ring) Voltage Offset",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0
+    },
+    {
+      "index": 189,
+      "type": "Voltage",
+      "sensorIndex": 3,
+      "id": 33554436,
+      "label": "GT Media Voltage Offset",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0
+    },
+    {
+      "index": 190,
+      "type": "Voltage",
+      "sensorIndex": 3,
+      "id": 33554437,
+      "label": "SA Voltage Offset",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0
+    },
+    {
+      "index": 191,
+      "type": "Voltage",
+      "sensorIndex": 3,
+      "id": 33554438,
+      "label": "L2 E-core Voltage Offset",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0
+    },
+    {
+      "index": 192,
+      "type": "Voltage",
+      "sensorIndex": 3,
+      "id": 33554457,
+      "label": "VDDQ TX Voltage",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.2
+    },
+    {
+      "index": 193,
+      "type": "Current",
+      "sensorIndex": 3,
+      "id": 67108880,
+      "label": "VR VCC Current (SVID IOUT)",
+      "userLabel": "",
+      "unit": "A",
+      "value": 50.860151064316774
+    },
+    {
+      "index": 194,
+      "type": "Power",
+      "sensorIndex": 3,
+      "id": 83886080,
+      "label": "CPU Package Power",
+      "userLabel": "",
+      "unit": "W",
+      "value": 64.26501886337883
+    },
+    {
+      "index": 195,
+      "type": "Power",
+      "sensorIndex": 3,
+      "id": 83886081,
+      "label": "IA Cores Power",
+      "userLabel": "",
+      "unit": "W",
+      "value": 62.32340098210792
+    },
+    {
+      "index": 196,
+      "type": "Power",
+      "sensorIndex": 3,
+      "id": 83886082,
+      "label": "GT Cores Power",
+      "userLabel": "",
+      "unit": "W",
+      "value": 0.006461442210932021
+    },
+    {
+      "index": 197,
+      "type": "Power",
+      "sensorIndex": 3,
+      "id": 83886086,
+      "label": "Rest-of-Chip Power",
+      "userLabel": "",
+      "unit": "W",
+      "value": 1.135120685872607
+    },
+    {
+      "index": 198,
+      "type": "Power",
+      "sensorIndex": 3,
+      "id": 83886096,
+      "label": "PL1 Power Limit (Static)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 181
+    },
+    {
+      "index": 199,
+      "type": "Power",
+      "sensorIndex": 3,
+      "id": 83886100,
+      "label": "PL2 Power Limit (Static)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 181
+    },
+    {
+      "index": 200,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440524,
+      "label": "P-core 0 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 51.61873631035004
+    },
+    {
+      "index": 201,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440525,
+      "label": "P-core 0 T1 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 3.155882745951408
+    },
+    {
+      "index": 202,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440526,
+      "label": "P-core 1 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 63.243224894083525
+    },
+    {
+      "index": 203,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440527,
+      "label": "P-core 1 T1 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 2.44869818386047
+    },
+    {
+      "index": 204,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440528,
+      "label": "P-core 2 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 52.36605079696623
+    },
+    {
+      "index": 205,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440529,
+      "label": "P-core 2 T1 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 14.19507876249876
+    },
+    {
+      "index": 206,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440530,
+      "label": "P-core 3 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 53.07925021900262
+    },
+    {
+      "index": 207,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440531,
+      "label": "P-core 3 T1 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 5.152605866398707
+    },
+    {
+      "index": 208,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440532,
+      "label": "P-core 4 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 52.939364811385346
+    },
+    {
+      "index": 209,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440533,
+      "label": "P-core 4 T1 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 4.432656104870972
+    },
+    {
+      "index": 210,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440534,
+      "label": "P-core 5 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 59.10954878380993
+    },
+    {
+      "index": 211,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440535,
+      "label": "P-core 5 T1 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 4.630565954907194
+    },
+    {
+      "index": 212,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440536,
+      "label": "E-core 6 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 26.33246352543622
+    },
+    {
+      "index": 213,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440538,
+      "label": "E-core 7 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 13.973726739212067
+    },
+    {
+      "index": 214,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440540,
+      "label": "E-core 8 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 9.656320577073227
+    },
+    {
+      "index": 215,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440542,
+      "label": "E-core 9 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 7.474504862018871
+    },
+    {
+      "index": 216,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440544,
+      "label": "E-core 10 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 30.049727807504112
+    },
+    {
+      "index": 217,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440546,
+      "label": "E-core 11 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 24.681345664542704
+    },
+    {
+      "index": 218,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440548,
+      "label": "E-core 12 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 27.676417465900297
+    },
+    {
+      "index": 219,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440550,
+      "label": "E-core 13 T0 C0 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 19.05075555941414
+    },
+    {
+      "index": 220,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440552,
+      "label": "P-core 0 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 45.26092912101824
+    },
+    {
+      "index": 221,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440553,
+      "label": "P-core 1 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 33.902031481196296
+    },
+    {
+      "index": 222,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440554,
+      "label": "P-core 2 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 37.09385501431852
+    },
+    {
+      "index": 223,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440555,
+      "label": "P-core 3 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 43.047395349996876
+    },
+    {
+      "index": 224,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440556,
+      "label": "P-core 4 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 42.95432060246723
+    },
+    {
+      "index": 225,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440557,
+      "label": "P-core 5 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 36.920411578511114
+    },
+    {
+      "index": 226,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440558,
+      "label": "E-core 6 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 69.32092107502031
+    },
+    {
+      "index": 227,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440559,
+      "label": "E-core 7 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 27.26026919784524
+    },
+    {
+      "index": 228,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440560,
+      "label": "E-core 8 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 11.554049781658167
+    },
+    {
+      "index": 229,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440561,
+      "label": "E-core 9 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 8.489051388533118
+    },
+    {
+      "index": 230,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440562,
+      "label": "E-core 10 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 67.07052348264163
+    },
+    {
+      "index": 231,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440563,
+      "label": "E-core 11 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 64.88968573256737
+    },
+    {
+      "index": 232,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440564,
+      "label": "E-core 12 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 43.88555714410843
+    },
+    {
+      "index": 233,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440565,
+      "label": "E-core 13 C1 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 33.95930457505666
+    },
+    {
+      "index": 234,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440622,
+      "label": "P-core 0 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.18432684339893976
+    },
+    {
+      "index": 235,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440623,
+      "label": "P-core 1 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 236,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440624,
+      "label": "P-core 2 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.03883634170952173
+    },
+    {
+      "index": 237,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440625,
+      "label": "P-core 3 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.009830544966875469
+    },
+    {
+      "index": 238,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440626,
+      "label": "P-core 4 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.47887025256183885
+    },
+    {
+      "index": 239,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440627,
+      "label": "P-core 5 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.18720013833127433
+    },
+    {
+      "index": 240,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440628,
+      "label": "E-core 6 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 1.635564933464424
+    },
+    {
+      "index": 241,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440629,
+      "label": "E-core 7 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 56.88448641707557
+    },
+    {
+      "index": 242,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440630,
+      "label": "E-core 8 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 77.4471752732214
+    },
+    {
+      "index": 243,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440631,
+      "label": "E-core 9 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 82.97484203944238
+    },
+    {
+      "index": 244,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440632,
+      "label": "E-core 10 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.0218570243212892
+    },
+    {
+      "index": 245,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440633,
+      "label": "E-core 11 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 7.8731482065857925
+    },
+    {
+      "index": 246,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440634,
+      "label": "E-core 12 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 25.9549547693585
+    },
+    {
+      "index": 247,
+      "type": "Usage",
+      "sensorIndex": 4,
+      "id": 117440635,
+      "label": "E-core 13 C6 Residency",
+      "userLabel": "",
+      "unit": "%",
+      "value": 44.65441197317392
+    },
+    {
+      "index": 248,
+      "type": "Clock",
+      "sensorIndex": 5,
+      "id": 100663296,
+      "label": "Memory Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 1596.096
+    },
+    {
+      "index": 249,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217728,
+      "label": "Memory Clock Ratio",
+      "userLabel": "",
+      "unit": "x",
+      "value": 16
+    },
+    {
+      "index": 250,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217729,
+      "label": "Tcas",
+      "userLabel": "",
+      "unit": "T",
+      "value": 22
+    },
+    {
+      "index": 251,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217730,
+      "label": "Trcd",
+      "userLabel": "",
+      "unit": "T",
+      "value": 22
+    },
+    {
+      "index": 252,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217731,
+      "label": "Trp",
+      "userLabel": "",
+      "unit": "T",
+      "value": 22
+    },
+    {
+      "index": 253,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217732,
+      "label": "Tras",
+      "userLabel": "",
+      "unit": "T",
+      "value": 52
+    },
+    {
+      "index": 254,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217733,
+      "label": "Trc",
+      "userLabel": "",
+      "unit": "T",
+      "value": 74
+    },
+    {
+      "index": 255,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217734,
+      "label": "Trfc",
+      "userLabel": "",
+      "unit": "T",
+      "value": 880
+    },
+    {
+      "index": 256,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217735,
+      "label": "Command Rate",
+      "userLabel": "",
+      "unit": "T",
+      "value": 2
+    },
+    {
+      "index": 257,
+      "type": "Other",
+      "sensorIndex": 5,
+      "id": 134217736,
+      "label": "Gear Mode",
+      "userLabel": "",
+      "unit": "",
+      "value": 1
+    },
+    {
+      "index": 258,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217728,
+      "label": "IA: PROCHOT",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 259,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217729,
+      "label": "IA: Thermal Event",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 260,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217733,
+      "label": "IA: Residency State Regulation",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 261,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217735,
+      "label": "IA: Running Average Thermal Limit",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 262,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217736,
+      "label": "IA: VR Thermal Alert",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 263,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217737,
+      "label": "IA: VR TDC",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 264,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217738,
+      "label": "IA: Electrical Design Point/Other (ICCmax,PL4,SVID,DDR RAPL)",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 265,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217740,
+      "label": "IA: Package-Level RAPL/PBM PL1",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 266,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217741,
+      "label": "IA: Package-Level RAPL/PBM PL2,PL3",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 267,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217742,
+      "label": "IA: Max Turbo Limit",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 1
+    },
+    {
+      "index": 268,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217744,
+      "label": "IA: Turbo Attenuation (MCT)",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 269,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217748,
+      "label": "IA: Thermal Velocity Boost",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 270,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217750,
+      "label": "GT: PROCHOT",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 271,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217751,
+      "label": "GT: Thermal Event",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 272,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217752,
+      "label": "GT: DDR RAPL",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 273,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217755,
+      "label": "GT: Residency State Regulation",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 274,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217757,
+      "label": "GT: Running Average Thermal Limit",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 275,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217758,
+      "label": "GT: VR Thermal Alert",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 276,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217759,
+      "label": "GT: VR TDC",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 277,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217760,
+      "label": "GT: Max VR Voltage, ICCmax, PL4",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 1
+    },
+    {
+      "index": 278,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217761,
+      "label": "GT: Domain-Level PBM PLGT",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 279,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217762,
+      "label": "GT: Package-Level RAPL/PBM PL1",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 280,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217763,
+      "label": "GT: Package-Level RAPL/PBM PL2,PL3",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 281,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217765,
+      "label": "GT: Inefficient Operation",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 282,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217767,
+      "label": "GT: Fuses limit",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 283,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217772,
+      "label": "RING: PROCHOT",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 284,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217773,
+      "label": "RING: Thermal Event",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 285,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217774,
+      "label": "RING: DDR RAPL",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 286,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217777,
+      "label": "RING: Residency State Regulation",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 287,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217779,
+      "label": "RING: Running Average Thermal Limit",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 288,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217780,
+      "label": "RING: VR Thermal Alert",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 289,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217781,
+      "label": "RING: VR TDC",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 290,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217782,
+      "label": "RING: Max VR Voltage, ICCmax, PL4",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 1
+    },
+    {
+      "index": 291,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217784,
+      "label": "RING: Package-Level RAPL/PBM PL1",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 292,
+      "type": "Other",
+      "sensorIndex": 6,
+      "id": 134217785,
+      "label": "RING: Package-Level RAPL/PBM PL2,PL3",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 293,
+      "type": "Temperature",
+      "sensorIndex": 7,
+      "id": 16777216,
+      "label": "CPU",
+      "userLabel": "",
+      "unit": "C",
+      "value": 51
+    },
+    {
+      "index": 294,
+      "type": "Temperature",
+      "sensorIndex": 7,
+      "id": 16777217,
+      "label": "System",
+      "userLabel": "",
+      "unit": "C",
+      "value": 41.5
+    },
+    {
+      "index": 295,
+      "type": "Temperature",
+      "sensorIndex": 7,
+      "id": 16777218,
+      "label": "MOS",
+      "userLabel": "",
+      "unit": "C",
+      "value": 43
+    },
+    {
+      "index": 296,
+      "type": "Temperature",
+      "sensorIndex": 7,
+      "id": 16777219,
+      "label": "PCH",
+      "userLabel": "",
+      "unit": "C",
+      "value": 60
+    },
+    {
+      "index": 297,
+      "type": "Temperature",
+      "sensorIndex": 7,
+      "id": 16777220,
+      "label": "CPU Socket",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 298,
+      "type": "Temperature",
+      "sensorIndex": 7,
+      "id": 16777221,
+      "label": "T0",
+      "userLabel": "",
+      "unit": "C",
+      "value": 18
+    },
+    {
+      "index": 299,
+      "type": "Temperature",
+      "sensorIndex": 7,
+      "id": 16777222,
+      "label": "T1",
+      "userLabel": "",
+      "unit": "C",
+      "value": 32
+    },
+    {
+      "index": 300,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554448,
+      "label": "\u002B12V",
+      "userLabel": "",
+      "unit": "V",
+      "value": 12
+    },
+    {
+      "index": 301,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554449,
+      "label": "\u002B5V",
+      "userLabel": "",
+      "unit": "V",
+      "value": 4.98
+    },
+    {
+      "index": 302,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554450,
+      "label": "Vcore",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.198
+    },
+    {
+      "index": 303,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554451,
+      "label": "VIN3",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0.54
+    },
+    {
+      "index": 304,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554452,
+      "label": "DRAM",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.192
+    },
+    {
+      "index": 305,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554453,
+      "label": "CPU SA",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.1500000000000001
+    },
+    {
+      "index": 306,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554454,
+      "label": "CPU AUX",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.788
+    },
+    {
+      "index": 307,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554455,
+      "label": "VIN7",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.526
+    },
+    {
+      "index": 308,
+      "type": "Voltage",
+      "sensorIndex": 7,
+      "id": 33554456,
+      "label": "\u002B3.3V",
+      "userLabel": "",
+      "unit": "V",
+      "value": 3.2560000000000002
+    },
+    {
+      "index": 309,
+      "type": "Fan",
+      "sensorIndex": 7,
+      "id": 50331648,
+      "label": "CPU",
+      "userLabel": "",
+      "unit": "RPM",
+      "value": 956
+    },
+    {
+      "index": 310,
+      "type": "Temperature",
+      "sensorIndex": 8,
+      "id": 16777216,
+      "label": "PCH Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 60
+    },
+    {
+      "index": 311,
+      "type": "Temperature",
+      "sensorIndex": 9,
+      "id": 16777216,
+      "label": "Drive Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 44
+    },
+    {
+      "index": 312,
+      "type": "Temperature",
+      "sensorIndex": 9,
+      "id": 16777217,
+      "label": "Drive Temperature 2",
+      "userLabel": "",
+      "unit": "C",
+      "value": 44
+    },
+    {
+      "index": 313,
+      "type": "Temperature",
+      "sensorIndex": 9,
+      "id": 16777218,
+      "label": "Drive Temperature 3",
+      "userLabel": "",
+      "unit": "C",
+      "value": 37
+    },
+    {
+      "index": 314,
+      "type": "Usage",
+      "sensorIndex": 9,
+      "id": 117440512,
+      "label": "Drive Remaining Life",
+      "userLabel": "",
+      "unit": "%",
+      "value": 99
+    },
+    {
+      "index": 315,
+      "type": "Usage",
+      "sensorIndex": 9,
+      "id": 117440513,
+      "label": "Drive Available Spare",
+      "userLabel": "",
+      "unit": "%",
+      "value": 100
+    },
+    {
+      "index": 316,
+      "type": "Other",
+      "sensorIndex": 9,
+      "id": 134217728,
+      "label": "Drive Failure",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 317,
+      "type": "Other",
+      "sensorIndex": 9,
+      "id": 134217729,
+      "label": "Drive Warning",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 318,
+      "type": "Other",
+      "sensorIndex": 9,
+      "id": 134217730,
+      "label": "Total Host Writes",
+      "userLabel": "",
+      "unit": "GB",
+      "value": 8374
+    },
+    {
+      "index": 319,
+      "type": "Other",
+      "sensorIndex": 9,
+      "id": 134217732,
+      "label": "Total Host Reads",
+      "userLabel": "",
+      "unit": "GB",
+      "value": 8155
+    },
+    {
+      "index": 320,
+      "type": "Temperature",
+      "sensorIndex": 10,
+      "id": 16777216,
+      "label": "Drive Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 43
+    },
+    {
+      "index": 321,
+      "type": "Temperature",
+      "sensorIndex": 10,
+      "id": 16777217,
+      "label": "Drive Temperature 2",
+      "userLabel": "",
+      "unit": "C",
+      "value": 43
+    },
+    {
+      "index": 322,
+      "type": "Temperature",
+      "sensorIndex": 10,
+      "id": 16777218,
+      "label": "Drive Temperature 3",
+      "userLabel": "",
+      "unit": "C",
+      "value": 42
+    },
+    {
+      "index": 323,
+      "type": "Usage",
+      "sensorIndex": 10,
+      "id": 117440512,
+      "label": "Drive Remaining Life",
+      "userLabel": "",
+      "unit": "%",
+      "value": 100
+    },
+    {
+      "index": 324,
+      "type": "Usage",
+      "sensorIndex": 10,
+      "id": 117440513,
+      "label": "Drive Available Spare",
+      "userLabel": "",
+      "unit": "%",
+      "value": 100
+    },
+    {
+      "index": 325,
+      "type": "Other",
+      "sensorIndex": 10,
+      "id": 134217728,
+      "label": "Drive Failure",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 326,
+      "type": "Other",
+      "sensorIndex": 10,
+      "id": 134217729,
+      "label": "Drive Warning",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 327,
+      "type": "Other",
+      "sensorIndex": 10,
+      "id": 134217730,
+      "label": "Total Host Writes",
+      "userLabel": "",
+      "unit": "GB",
+      "value": 15767
+    },
+    {
+      "index": 328,
+      "type": "Other",
+      "sensorIndex": 10,
+      "id": 134217732,
+      "label": "Total Host Reads",
+      "userLabel": "",
+      "unit": "GB",
+      "value": 26764
+    },
+    {
+      "index": 329,
+      "type": "Temperature",
+      "sensorIndex": 11,
+      "id": 16777216,
+      "label": "Drive Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 40
+    },
+    {
+      "index": 330,
+      "type": "Temperature",
+      "sensorIndex": 11,
+      "id": 16777218,
+      "label": "Drive Temperature 3",
+      "userLabel": "",
+      "unit": "C",
+      "value": 40
+    },
+    {
+      "index": 331,
+      "type": "Temperature",
+      "sensorIndex": 11,
+      "id": 16777219,
+      "label": "Drive Temperature 4",
+      "userLabel": "",
+      "unit": "C",
+      "value": 53
+    },
+    {
+      "index": 332,
+      "type": "Temperature",
+      "sensorIndex": 11,
+      "id": 16777220,
+      "label": "Drive Temperature 5",
+      "userLabel": "",
+      "unit": "C",
+      "value": 40
+    },
+    {
+      "index": 333,
+      "type": "Temperature",
+      "sensorIndex": 11,
+      "id": 16777221,
+      "label": "Drive Temperature 6",
+      "userLabel": "",
+      "unit": "C",
+      "value": 40
+    },
+    {
+      "index": 334,
+      "type": "Temperature",
+      "sensorIndex": 11,
+      "id": 16777222,
+      "label": "Drive Temperature 7",
+      "userLabel": "",
+      "unit": "C",
+      "value": 38
+    },
+    {
+      "index": 335,
+      "type": "Usage",
+      "sensorIndex": 11,
+      "id": 117440512,
+      "label": "Drive Remaining Life",
+      "userLabel": "",
+      "unit": "%",
+      "value": 99
+    },
+    {
+      "index": 336,
+      "type": "Usage",
+      "sensorIndex": 11,
+      "id": 117440513,
+      "label": "Drive Available Spare",
+      "userLabel": "",
+      "unit": "%",
+      "value": 100
+    },
+    {
+      "index": 337,
+      "type": "Other",
+      "sensorIndex": 11,
+      "id": 134217728,
+      "label": "Drive Failure",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 338,
+      "type": "Other",
+      "sensorIndex": 11,
+      "id": 134217729,
+      "label": "Drive Warning",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 339,
+      "type": "Other",
+      "sensorIndex": 11,
+      "id": 134217730,
+      "label": "Total Host Writes",
+      "userLabel": "",
+      "unit": "GB",
+      "value": 12009
+    },
+    {
+      "index": 340,
+      "type": "Other",
+      "sensorIndex": 11,
+      "id": 134217732,
+      "label": "Total Host Reads",
+      "userLabel": "",
+      "unit": "GB",
+      "value": 48665
+    },
+    {
+      "index": 341,
+      "type": "Usage",
+      "sensorIndex": 12,
+      "id": 117440512,
+      "label": "Read Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 1.06
+    },
+    {
+      "index": 342,
+      "type": "Usage",
+      "sensorIndex": 12,
+      "id": 117440513,
+      "label": "Write Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 1.588
+    },
+    {
+      "index": 343,
+      "type": "Usage",
+      "sensorIndex": 12,
+      "id": 117440514,
+      "label": "Total Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 2.649
+    },
+    {
+      "index": 344,
+      "type": "Other",
+      "sensorIndex": 12,
+      "id": 134217728,
+      "label": "Read Rate",
+      "userLabel": "",
+      "unit": "MB/s",
+      "value": 1.594
+    },
+    {
+      "index": 345,
+      "type": "Other",
+      "sensorIndex": 12,
+      "id": 134217729,
+      "label": "Write Rate",
+      "userLabel": "",
+      "unit": "MB/s",
+      "value": 18.111
+    },
+    {
+      "index": 346,
+      "type": "Other",
+      "sensorIndex": 12,
+      "id": 134217730,
+      "label": "Read Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 11826
+    },
+    {
+      "index": 347,
+      "type": "Other",
+      "sensorIndex": 12,
+      "id": 134217731,
+      "label": "Write Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 8771
+    },
+    {
+      "index": 348,
+      "type": "Usage",
+      "sensorIndex": 13,
+      "id": 117440512,
+      "label": "Read Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.025
+    },
+    {
+      "index": 349,
+      "type": "Usage",
+      "sensorIndex": 13,
+      "id": 117440513,
+      "label": "Write Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 1.703
+    },
+    {
+      "index": 350,
+      "type": "Usage",
+      "sensorIndex": 13,
+      "id": 117440514,
+      "label": "Total Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 1.728
+    },
+    {
+      "index": 351,
+      "type": "Other",
+      "sensorIndex": 13,
+      "id": 134217728,
+      "label": "Read Rate",
+      "userLabel": "",
+      "unit": "MB/s",
+      "value": 0.01
+    },
+    {
+      "index": 352,
+      "type": "Other",
+      "sensorIndex": 13,
+      "id": 134217729,
+      "label": "Write Rate",
+      "userLabel": "",
+      "unit": "MB/s",
+      "value": 0.135
+    },
+    {
+      "index": 353,
+      "type": "Other",
+      "sensorIndex": 13,
+      "id": 134217730,
+      "label": "Read Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 102
+    },
+    {
+      "index": 354,
+      "type": "Other",
+      "sensorIndex": 13,
+      "id": 134217731,
+      "label": "Write Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 128
+    },
+    {
+      "index": 355,
+      "type": "Usage",
+      "sensorIndex": 14,
+      "id": 117440512,
+      "label": "Read Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.046
+    },
+    {
+      "index": 356,
+      "type": "Usage",
+      "sensorIndex": 14,
+      "id": 117440513,
+      "label": "Write Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.087
+    },
+    {
+      "index": 357,
+      "type": "Usage",
+      "sensorIndex": 14,
+      "id": 117440514,
+      "label": "Total Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.134
+    },
+    {
+      "index": 358,
+      "type": "Other",
+      "sensorIndex": 14,
+      "id": 134217728,
+      "label": "Read Rate",
+      "userLabel": "",
+      "unit": "MB/s",
+      "value": 0.022
+    },
+    {
+      "index": 359,
+      "type": "Other",
+      "sensorIndex": 14,
+      "id": 134217729,
+      "label": "Write Rate",
+      "userLabel": "",
+      "unit": "MB/s",
+      "value": 0.133
+    },
+    {
+      "index": 360,
+      "type": "Other",
+      "sensorIndex": 14,
+      "id": 134217730,
+      "label": "Read Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 100
+    },
+    {
+      "index": 361,
+      "type": "Other",
+      "sensorIndex": 14,
+      "id": 134217731,
+      "label": "Write Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 124
+    },
+    {
+      "index": 362,
+      "type": "Usage",
+      "sensorIndex": 15,
+      "id": 117440512,
+      "label": "Read Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.101
+    },
+    {
+      "index": 363,
+      "type": "Usage",
+      "sensorIndex": 15,
+      "id": 117440513,
+      "label": "Write Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 1.706
+    },
+    {
+      "index": 364,
+      "type": "Usage",
+      "sensorIndex": 15,
+      "id": 117440514,
+      "label": "Total Activity",
+      "userLabel": "",
+      "unit": "%",
+      "value": 1.808
+    },
+    {
+      "index": 365,
+      "type": "Other",
+      "sensorIndex": 15,
+      "id": 134217728,
+      "label": "Read Rate",
+      "userLabel": "",
+      "unit": "MB/s",
+      "value": 0.033
+    },
+    {
+      "index": 366,
+      "type": "Other",
+      "sensorIndex": 15,
+      "id": 134217729,
+      "label": "Write Rate",
+      "userLabel": "",
+      "unit": "MB/s",
+      "value": 0.262
+    },
+    {
+      "index": 367,
+      "type": "Other",
+      "sensorIndex": 15,
+      "id": 134217730,
+      "label": "Read Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 20
+    },
+    {
+      "index": 368,
+      "type": "Other",
+      "sensorIndex": 15,
+      "id": 134217731,
+      "label": "Write Total",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 75
+    },
+    {
+      "index": 369,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777216,
+      "label": "GPU Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 40
+    },
+    {
+      "index": 370,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777221,
+      "label": "GPU Memory Junction Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 40
+    },
+    {
+      "index": 371,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777222,
+      "label": "GPU VR VDDC Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 39.86913299560547
+    },
+    {
+      "index": 372,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777226,
+      "label": "GPU Hot Spot Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 42
+    },
+    {
+      "index": 373,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777227,
+      "label": "GPU VR SoC Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 43.04314422607422
+    },
+    {
+      "index": 374,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777232,
+      "label": "GPU Hot Spot Temperature (Max)",
+      "userLabel": "",
+      "unit": "C",
+      "value": 42.625
+    },
+    {
+      "index": 375,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777344,
+      "label": "GPU Memory C0/C1 Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 39.99998092651367
+    },
+    {
+      "index": 376,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777345,
+      "label": "GPU Memory D0/D1 Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 39.99998092651367
+    },
+    {
+      "index": 377,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777346,
+      "label": "GPU Memory B0/B1 Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 38.757144927978516
+    },
+    {
+      "index": 378,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777347,
+      "label": "GPU Memory A0/A1 Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 39.99998092651367
+    },
+    {
+      "index": 379,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777348,
+      "label": "GPU Memory E0/E1 Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 39.99998092651367
+    },
+    {
+      "index": 380,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777349,
+      "label": "GPU Memory F0/F1 Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 39.99998092651367
+    },
+    {
+      "index": 381,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777350,
+      "label": "GPU Memory H0/H1 Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 39.99998092651367
+    },
+    {
+      "index": 382,
+      "type": "Temperature",
+      "sensorIndex": 16,
+      "id": 16777351,
+      "label": "GPU Memory G0/G1 Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 39.99998092651367
+    },
+    {
+      "index": 383,
+      "type": "Voltage",
+      "sensorIndex": 16,
+      "id": 33554432,
+      "label": "GPU Core Voltage (VDDCR_GFX)",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0.5667551755905151
+    },
+    {
+      "index": 384,
+      "type": "Voltage",
+      "sensorIndex": 16,
+      "id": 33554433,
+      "label": "GPU Memory Voltage (VDDIO)",
+      "userLabel": "",
+      "unit": "V",
+      "value": 1.2499994039535522
+    },
+    {
+      "index": 385,
+      "type": "Voltage",
+      "sensorIndex": 16,
+      "id": 33554434,
+      "label": "GPU SoC Voltage (VDDCR_SOC)",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0.8367165327072144
+    },
+    {
+      "index": 386,
+      "type": "Voltage",
+      "sensorIndex": 16,
+      "id": 33554435,
+      "label": "GPU Memory Voltage (VDDCI_MEM)",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0.6750001311302185
+    },
+    {
+      "index": 387,
+      "type": "Voltage",
+      "sensorIndex": 16,
+      "id": 33554441,
+      "label": "\u002B12V SOC Input Voltage",
+      "userLabel": "",
+      "unit": "V",
+      "value": 12.057697296142578
+    },
+    {
+      "index": 388,
+      "type": "Fan",
+      "sensorIndex": 16,
+      "id": 50331648,
+      "label": "GPU Fan",
+      "userLabel": "",
+      "unit": "RPM",
+      "value": 0
+    },
+    {
+      "index": 389,
+      "type": "Current",
+      "sensorIndex": 16,
+      "id": 67108864,
+      "label": "GPU Core Current (VDDCR_GFX)",
+      "userLabel": "",
+      "unit": "A",
+      "value": 0.7928600907325745
+    },
+    {
+      "index": 390,
+      "type": "Current",
+      "sensorIndex": 16,
+      "id": 67108865,
+      "label": "GPU Memory Current (VDDIO)",
+      "userLabel": "",
+      "unit": "A",
+      "value": 1.7345008850097656
+    },
+    {
+      "index": 391,
+      "type": "Current",
+      "sensorIndex": 16,
+      "id": 67108866,
+      "label": "GPU SoC Current (VDDCR_SOC)",
+      "userLabel": "",
+      "unit": "A",
+      "value": 0.1372125893831253
+    },
+    {
+      "index": 392,
+      "type": "Current",
+      "sensorIndex": 16,
+      "id": 67108867,
+      "label": "GPU Memory Current (VDDCI_MEM)",
+      "userLabel": "",
+      "unit": "A",
+      "value": 0.3363591134548187
+    },
+    {
+      "index": 393,
+      "type": "Current",
+      "sensorIndex": 16,
+      "id": 67108884,
+      "label": "GPU Core TDC Limit",
+      "userLabel": "",
+      "unit": "A",
+      "value": 330
+    },
+    {
+      "index": 394,
+      "type": "Current",
+      "sensorIndex": 16,
+      "id": 67108885,
+      "label": "GPU SOC TDC Limit",
+      "userLabel": "",
+      "unit": "A",
+      "value": 84
+    },
+    {
+      "index": 395,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886081,
+      "label": "GPU Core Power (VDDCR_GFX)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 0.5058480501174927
+    },
+    {
+      "index": 396,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886082,
+      "label": "GPU Memory Power (VDDIO)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 2.168119192123413
+    },
+    {
+      "index": 397,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886083,
+      "label": "GPU SoC Power (VDDCR_SOC)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 0.11496981233358383
+    },
+    {
+      "index": 398,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886085,
+      "label": "GPU Memory Power (VDDCI_MEM)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 0.22704239189624786
+    },
+    {
+      "index": 399,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886089,
+      "label": "Total Graphics Power (TGP)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 9.355605125427246
+    },
+    {
+      "index": 400,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886090,
+      "label": "Total Board Power (TBP)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 15.999763488769531
+    },
+    {
+      "index": 401,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886091,
+      "label": "GPU Power Maximum",
+      "userLabel": "",
+      "unit": "W",
+      "value": 31.633203506469727
+    },
+    {
+      "index": 402,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886110,
+      "label": "Total Board Power (TBP) Limit",
+      "userLabel": "",
+      "unit": "W",
+      "value": 304
+    },
+    {
+      "index": 403,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886120,
+      "label": "GPU Core Input Power (VDDCR_GFX)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 12.701534271240234
+    },
+    {
+      "index": 404,
+      "type": "Power",
+      "sensorIndex": 16,
+      "id": 83886121,
+      "label": "GPU SoC Input Power (VDDCR_SOC)",
+      "userLabel": "",
+      "unit": "W",
+      "value": 2.298224687576294
+    },
+    {
+      "index": 405,
+      "type": "Clock",
+      "sensorIndex": 16,
+      "id": 100663296,
+      "label": "GPU Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 82
+    },
+    {
+      "index": 406,
+      "type": "Clock",
+      "sensorIndex": 16,
+      "id": 100663297,
+      "label": "GPU Clock (Effective)",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 81.7904052734375
+    },
+    {
+      "index": 407,
+      "type": "Clock",
+      "sensorIndex": 16,
+      "id": 100663300,
+      "label": "GPU Memory Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 52
+    },
+    {
+      "index": 408,
+      "type": "Clock",
+      "sensorIndex": 16,
+      "id": 100663301,
+      "label": "GPU SoC Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 417.3868103027344
+    },
+    {
+      "index": 409,
+      "type": "Clock",
+      "sensorIndex": 16,
+      "id": 100663308,
+      "label": "GPU FCLK",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 582.8594360351562
+    },
+    {
+      "index": 410,
+      "type": "Clock",
+      "sensorIndex": 16,
+      "id": 100663309,
+      "label": "GPU FCLK (Effective)",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 189.1115264892578
+    },
+    {
+      "index": 411,
+      "type": "Clock",
+      "sensorIndex": 16,
+      "id": 100663360,
+      "label": "GPU Clock Frequency Limit",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3450.000244140625
+    },
+    {
+      "index": 412,
+      "type": "Clock",
+      "sensorIndex": 16,
+      "id": 100663361,
+      "label": "GPU Clock Frequency Limit",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 3450.000244140625
+    },
+    {
+      "index": 413,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440512,
+      "label": "GPU Utilization",
+      "userLabel": "",
+      "unit": "%",
+      "value": 9
+    },
+    {
+      "index": 414,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440513,
+      "label": "GPU D3D Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.668397390351267
+    },
+    {
+      "index": 415,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440514,
+      "label": "GPU Memory Controller Utilization",
+      "userLabel": "",
+      "unit": "%",
+      "value": 1
+    },
+    {
+      "index": 416,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440542,
+      "label": "GPU Computing (Compute 0) Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 417,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440562,
+      "label": "Total Board Power (TBP) Limit",
+      "userLabel": "",
+      "unit": "%",
+      "value": 5.262832578859832
+    },
+    {
+      "index": 418,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440570,
+      "label": "GPU Core TDC Limit",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.2420559615799875
+    },
+    {
+      "index": 419,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440571,
+      "label": "GPU SOC TDC Limit",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.16238139498801457
+    },
+    {
+      "index": 420,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440573,
+      "label": "GPU Hotspot Thermal Limit",
+      "userLabel": "",
+      "unit": "%",
+      "value": 38.288303722034804
+    },
+    {
+      "index": 421,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440574,
+      "label": "GPU Memory Thermal Limit",
+      "userLabel": "",
+      "unit": "%",
+      "value": 37.066558555320455
+    },
+    {
+      "index": 422,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440575,
+      "label": "GPU VR GFX Thermal Limit",
+      "userLabel": "",
+      "unit": "%",
+      "value": 37.95071556454613
+    },
+    {
+      "index": 423,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440576,
+      "label": "GPU VR SOC Thermal Limit",
+      "userLabel": "",
+      "unit": "%",
+      "value": 40.993434361049104
+    },
+    {
+      "index": 424,
+      "type": "Usage",
+      "sensorIndex": 16,
+      "id": 117440577,
+      "label": "GPU VR MEM Thermal Limit",
+      "userLabel": "",
+      "unit": "%",
+      "value": 43.80958557128906
+    },
+    {
+      "index": 425,
+      "type": "Other",
+      "sensorIndex": 16,
+      "id": 134217728,
+      "label": "GPU Fan PWM",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 426,
+      "type": "Other",
+      "sensorIndex": 16,
+      "id": 134217729,
+      "label": "GPU D3D Memory Dedicated",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 1530.015625
+    },
+    {
+      "index": 427,
+      "type": "Other",
+      "sensorIndex": 16,
+      "id": 134217730,
+      "label": "GPU D3D Memory Dynamic",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 164.71484375
+    },
+    {
+      "index": 428,
+      "type": "Other",
+      "sensorIndex": 16,
+      "id": 134217731,
+      "label": "PCIe Link Speed",
+      "userLabel": "",
+      "unit": "GT/s",
+      "value": 16
+    },
+    {
+      "index": 429,
+      "type": "Other",
+      "sensorIndex": 16,
+      "id": 134217732,
+      "label": "GPU Memory Usage",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 9401
+    },
+    {
+      "index": 430,
+      "type": "Other",
+      "sensorIndex": 16,
+      "id": 134217778,
+      "label": "Framerate",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 0
+    },
+    {
+      "index": 431,
+      "type": "Temperature",
+      "sensorIndex": 17,
+      "id": 16777216,
+      "label": "GPU Core Temperature",
+      "userLabel": "",
+      "unit": "C",
+      "value": 36
+    },
+    {
+      "index": 432,
+      "type": "Voltage",
+      "sensorIndex": 17,
+      "id": 33554432,
+      "label": "iGPU VID",
+      "userLabel": "",
+      "unit": "V",
+      "value": 0.315
+    },
+    {
+      "index": 433,
+      "type": "Power",
+      "sensorIndex": 17,
+      "id": 83886080,
+      "label": "IGPU Power",
+      "userLabel": "",
+      "unit": "W",
+      "value": 59.46670883354171
+    },
+    {
+      "index": 434,
+      "type": "Clock",
+      "sensorIndex": 17,
+      "id": 100663296,
+      "label": "GPU Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 600
+    },
+    {
+      "index": 435,
+      "type": "Clock",
+      "sensorIndex": 17,
+      "id": 100663297,
+      "label": "GPU Memory Clock",
+      "userLabel": "",
+      "unit": "MHz",
+      "value": 1596
+    },
+    {
+      "index": 436,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440512,
+      "label": "GPU Total Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.12688697448896083
+    },
+    {
+      "index": 437,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440513,
+      "label": "GPU Computing Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 438,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440514,
+      "label": "GPU Media Engine Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 439,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440532,
+      "label": "GPU D3D Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 440,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440533,
+      "label": "GPU Video Decode 0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 441,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440534,
+      "label": "GPU Video Decode 1 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 442,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440537,
+      "label": "GPU Video Processing 0 Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 443,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440552,
+      "label": "GPU Copy Engine Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0
+    },
+    {
+      "index": 444,
+      "type": "Usage",
+      "sensorIndex": 17,
+      "id": 117440562,
+      "label": "GPU Memory Usage",
+      "userLabel": "",
+      "unit": "%",
+      "value": 0.060692225956641574
+    },
+    {
+      "index": 445,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217728,
+      "label": "GPU Memory Allocated",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 19
+    },
+    {
+      "index": 446,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217729,
+      "label": "GPU Memory Available",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 32553
+    },
+    {
+      "index": 447,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217737,
+      "label": "GPU D3D Memory Dynamic",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 19.76953125
+    },
+    {
+      "index": 448,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217760,
+      "label": "Avg. Power (PL1)",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 449,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217761,
+      "label": "Burst Power (PL2)",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 450,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217762,
+      "label": "Current (PL4)",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 451,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217763,
+      "label": "Thermal",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 452,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217764,
+      "label": "Power Supply",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 453,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217765,
+      "label": "Software Limit",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 454,
+      "type": "Other",
+      "sensorIndex": 17,
+      "id": 134217766,
+      "label": "Hardware Limit",
+      "userLabel": "",
+      "unit": "Yes/No",
+      "value": 0
+    },
+    {
+      "index": 455,
+      "type": "Other",
+      "sensorIndex": 18,
+      "id": 134217728,
+      "label": "Framerate",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 0
+    },
+    {
+      "index": 456,
+      "type": "Other",
+      "sensorIndex": 18,
+      "id": 134217729,
+      "label": "Framerate 1% Low",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 0
+    },
+    {
+      "index": 457,
+      "type": "Other",
+      "sensorIndex": 18,
+      "id": 134217730,
+      "label": "Framerate 0.1% Low",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 0
+    },
+    {
+      "index": 458,
+      "type": "Other",
+      "sensorIndex": 18,
+      "id": 134217731,
+      "label": "Frame Time",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 0
+    },
+    {
+      "index": 459,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217728,
+      "label": "Framerate Presented (avg)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 50.01577093032313
+    },
+    {
+      "index": 460,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217729,
+      "label": "Framerate Presented (99%)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 51.41978775351369
+    },
+    {
+      "index": 461,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217730,
+      "label": "Framerate Presented (1%)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 48.95738396806256
+    },
+    {
+      "index": 462,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217731,
+      "label": "Framerate Presented (0.1%)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 48.91455472532991
+    },
+    {
+      "index": 463,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217732,
+      "label": "Framerate Presented (1% low)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 48.90980054583338
+    },
+    {
+      "index": 464,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217733,
+      "label": "Framerate Presented (0.1% low)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 48.90980054583338
+    },
+    {
+      "index": 465,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217738,
+      "label": "Framerate Displayed (avg)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 50.00377688101973
+    },
+    {
+      "index": 466,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217739,
+      "label": "Framerate Displayed (99%)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 50.12429320987252
+    },
+    {
+      "index": 467,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217740,
+      "label": "Framerate Displayed (1%)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 49.887234894245054
+    },
+    {
+      "index": 468,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217741,
+      "label": "Framerate Displayed (0.1%)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 49.88187771828799
+    },
+    {
+      "index": 469,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217742,
+      "label": "Framerate Displayed (1% low)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 49.88128254753686
+    },
+    {
+      "index": 470,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217743,
+      "label": "Framerate Displayed (0.1% low)",
+      "userLabel": "",
+      "unit": "FPS",
+      "value": 49.88128254753686
+    },
+    {
+      "index": 471,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217748,
+      "label": "Frame Time Presented (avg)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 19.98206595744681
+    },
+    {
+      "index": 472,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217749,
+      "label": "Frame Time Presented (99%)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 20.702538
+    },
+    {
+      "index": 473,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217750,
+      "label": "Frame Time Presented (1%)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 19.201268000000002
+    },
+    {
+      "index": 474,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217751,
+      "label": "Frame Time Presented (0.1%)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 19.1760968
+    },
+    {
+      "index": 475,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217752,
+      "label": "Frame Time Displayed (1% high)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 20.7162
+    },
+    {
+      "index": 476,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217753,
+      "label": "Frame Time Displayed (0.1% high)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 20.7162
+    },
+    {
+      "index": 477,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217758,
+      "label": "GPU Busy (avg)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 0.4323595744680851
+    },
+    {
+      "index": 478,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217759,
+      "label": "GPU Wait (avg)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 0.8021595744680851
+    },
+    {
+      "index": 479,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217768,
+      "label": "CPU Busy (avg)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 19.48232765957447
+    },
+    {
+      "index": 480,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217769,
+      "label": "CPU Wait (avg)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 0.4997382978723404
+    },
+    {
+      "index": 481,
+      "type": "Other",
+      "sensorIndex": 19,
+      "id": 134217778,
+      "label": "Animation Error (avg)",
+      "userLabel": "",
+      "unit": "ms",
+      "value": 0.31112978723404255
+    },
+    {
+      "index": 482,
+      "type": "Other",
+      "sensorIndex": 20,
+      "id": 134217728,
+      "label": "Total DL",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 530.0646715164185
+    },
+    {
+      "index": 483,
+      "type": "Other",
+      "sensorIndex": 20,
+      "id": 134217729,
+      "label": "Total UP",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 924.8904476165771
+    },
+    {
+      "index": 484,
+      "type": "Other",
+      "sensorIndex": 20,
+      "id": 134217730,
+      "label": "Current DL rate",
+      "userLabel": "",
+      "unit": "KB/s",
+      "value": 4.527652672996878
+    },
+    {
+      "index": 485,
+      "type": "Other",
+      "sensorIndex": 20,
+      "id": 134217731,
+      "label": "Current UP rate",
+      "userLabel": "",
+      "unit": "KB/s",
+      "value": 226.72915582726327
+    },
+    {
+      "index": 486,
+      "type": "Other",
+      "sensorIndex": 21,
+      "id": 134217728,
+      "label": "Total DL",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 0.05660533905029297
+    },
+    {
+      "index": 487,
+      "type": "Other",
+      "sensorIndex": 21,
+      "id": 134217729,
+      "label": "Total UP",
+      "userLabel": "",
+      "unit": "MB",
+      "value": 0.5683956146240234
+    },
+    {
+      "index": 488,
+      "type": "Other",
+      "sensorIndex": 21,
+      "id": 134217730,
+      "label": "Current DL rate",
+      "userLabel": "",
+      "unit": "KB/s",
+      "value": 0
+    },
+    {
+      "index": 489,
+      "type": "Other",
+      "sensorIndex": 21,
+      "id": 134217731,
+      "label": "Current UP rate",
+      "userLabel": "",
+      "unit": "KB/s",
+      "value": 0.24185418834547348
+    }
+  ]
+}

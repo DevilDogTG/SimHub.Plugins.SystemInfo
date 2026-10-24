@@ -19,6 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\tools\HwinfoDump\SnapshotFixture.cs" Link="Fixtures\SnapshotFixture.cs" />
+    <None Include="Fixtures\*.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\src\DevDogs.SystemInfo.Core\DevDogs.SystemInfo.Core.csproj" />
   </ItemGroup>
 
