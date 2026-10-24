@@ -12,6 +12,7 @@
     <Reference Include="GameReaderCommon" HintPath="$(SimHubPath)GameReaderCommon.dll" Private="false" />
     <Reference Include="SimHub.Logging" HintPath="$(SimHubPath)SimHub.Logging.dll" Private="false" />
     <Reference Include="log4net" HintPath="$(SimHubPath)log4net.dll" Private="false" />
+    <Reference Include="System.Management" />
   </ItemGroup>
 
   <!-- Opt-in local deploy: dotnet build -p:DeployToSimHub=true (close SimHub first, it locks loaded plugin DLLs). -->

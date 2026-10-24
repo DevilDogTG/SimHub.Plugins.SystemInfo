@@ -31,6 +31,9 @@ public sealed class HwinfoConnection : IDisposable
 
     public bool IsConnected => Header is not null;
 
+    /// <summary>The open mapping while connected; valid until the next <see cref="Poll"/>.</summary>
+    public ISharedMemory? Memory => IsConnected ? _memory : null;
+
     /// <summary>Opens the mapping if needed and re-reads the header. Returns whether HWiNFO is publishing.</summary>
     public bool Poll()
     {
