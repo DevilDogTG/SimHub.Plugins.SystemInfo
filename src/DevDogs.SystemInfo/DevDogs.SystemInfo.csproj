@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>DevDogs.SystemInfo</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\..\build\SimHub.props" />
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <PackageReference Include="PolySharp" Version="1.15.0" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevDogs.SystemInfo.Core\DevDogs.SystemInfo.Core.csproj" />
+  </ItemGroup>
+
+</Project>

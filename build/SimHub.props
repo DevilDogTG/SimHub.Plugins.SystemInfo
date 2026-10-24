@@ -1,0 +1,25 @@
+<Project>
+  <!-- Where SimHub is installed. Its own assemblies are referenced from here, never copied (ADR-0001).
+       Override with -p:SimHubPath=... when SimHub lives elsewhere. -->
+  <PropertyGroup>
+    <SimHubPath Condition="'$(SimHubPath)' == ''">$([MSBuild]::GetRegistryValue('HKEY_CURRENT_USER\Software\SimHub', 'InstallDirectory'))</SimHubPath>
+    <SimHubPath Condition="'$(SimHubPath)' == ''">C:\Program Files (x86)\SimHub</SimHubPath>
+    <SimHubPath>$([MSBuild]::EnsureTrailingSlash('$(SimHubPath)'))</SimHubPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SimHub.Plugins" HintPath="$(SimHubPath)SimHub.Plugins.dll" Private="false" />
+    <Reference Include="GameReaderCommon" HintPath="$(SimHubPath)GameReaderCommon.dll" Private="false" />
+    <Reference Include="SimHub.Logging" HintPath="$(SimHubPath)SimHub.Logging.dll" Private="false" />
+    <Reference Include="log4net" HintPath="$(SimHubPath)log4net.dll" Private="false" />
+  </ItemGroup>
+
+  <!-- Opt-in local deploy: dotnet build -p:DeployToSimHub=true (close SimHub first, it locks loaded plugin DLLs). -->
+  <Target Name="DeployToSimHub" AfterTargets="Build" Condition="'$(DeployToSimHub)' == 'true'">
+    <ItemGroup>
+      <DeployFiles Include="$(OutDir)DevDogs.SystemInfo*.dll;$(OutDir)DevDogs.SystemInfo*.pdb" />
+    </ItemGroup>
+    <Copy SourceFiles="@(DeployFiles)" DestinationFolder="$(SimHubPath)" SkipUnchangedFiles="true" />
+    <Message Importance="high" Text="Deployed @(DeployFiles->'%(Filename)%(Extension)', ', ') to $(SimHubPath)" />
+  </Target>
+</Project>

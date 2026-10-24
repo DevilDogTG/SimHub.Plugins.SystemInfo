@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DevDogs.SystemInfo.Core/DevDogs.SystemInfo.Core.csproj" />
+    <Project Path="src/DevDogs.SystemInfo/DevDogs.SystemInfo.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DevDogs.SystemInfo.Core.Tests/DevDogs.SystemInfo.Core.Tests.csproj" />
+  </Folder>
+</Solution>
