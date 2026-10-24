@@ -6,4 +6,7 @@
   <Folder Name="/tests/">
     <Project Path="tests/DevDogs.SystemInfo.Core.Tests/DevDogs.SystemInfo.Core.Tests.csproj" />
   </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/HwinfoDump/HwinfoDump.csproj" />
+  </Folder>
 </Solution>
